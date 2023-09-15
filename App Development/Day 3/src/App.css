@@ -1,0 +1,256 @@
+ 
+  /* Style the login container */
+.login-container {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto; /* Center the login container horizontally */
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(102, 31, 160, 0.7);
+}
+
+/* Style the form elements */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0; /* Add space between input fields */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none; /* Remove input field outlines */
+}
+
+/* Style input focus */
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff; /* Change border color on focus */
+}
+
+/* Style the login button */
+button[type="submit"] {
+  background-color: #805da2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px; /* Add space between inputs and button */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button[type="submit"]:hover {
+  background-color: #ae71c7;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+.input-container{
+  margin-bottom: 20px;
+}
+.main-content {
+  width: 50%;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  margin: 5em auto;
+  display: flex;
+}
+.company__info {
+  background-color: #008080;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+}
+.body{
+  height: 100%;
+  width: 100%;
+  background-color:white;
+}
+.company__logo{
+  height: 40px;
+  width: 20px;
+  border-radius: 50%;
+}
+.fa-android {
+  font-size: 3em;
+}
+@media screen and (max-width: 640px) {
+  .main-content {
+    width: 90%;
+  }
+  .company__info {
+    display: none;
+  }
+  .login_form {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+}
+@media screen and (min-width: 642px) and (max-width: 800px) {
+  .main-content {
+    width: 70%;
+  }
+}
+.row > h2 {
+  color: #008080;
+}
+.login_form {
+  background-color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+form {
+  padding: 0 2em;
+}
+.form__input {
+  width: 100%;
+  border: 0px solid transparent;
+  border-radius: 0;
+  border-bottom: 1px solid #aaa;
+  padding: 1em 0.5em 0.5em;
+  padding-left: 2em;
+  outline: none;
+  margin: 1.5em auto;
+  transition: all 0.5s ease;
+}
+.form__input:focus {
+  border-bottom-color: #008080;
+  box-shadow: 0 0 5px rgba(0, 80, 80, 0.4);
+  border-radius: 4px;
+}
+.btn {
+  transition: all 0.5s ease;
+  width: 70%;
+  border-radius: 30px;
+  color: #008080;
+  font-weight: 600;
+  background-color: #fff;
+  border: 1px solid #008080;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #008080;
+  color: #fff;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.wallpapersafari.com/52/52/qQNePx.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6; 
+  z-index: 1; 
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgb(74, 24, 68);
+  animation: fadeIn 0.5s ease-in-out forwards;
+  
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #c46ed5;
+  
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+
+input[type="text"],
+input[type="password"] {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #080000;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+
+.error-message {
+  color: #f44336;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+button[type="submit"] {
+  width: 375px;
+  padding: 12px;
+  background-color: #2474c9;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #7d4a8b;
+}
+
+
+body{
+  background-image: url('https://cdn.wallpapersafari.com/52/52/qQNePx.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-style: inherit;
+  font-family: 'lato', sans-serif; 
+  font-size: 36px; 
+  font-weight: lighter;
+  color: black; 
+ 
+  transform: scale(0); /* Initial scale set to 0 (hidden) */
+  animation: fadeIn 1s ease-in-out forwards;
+  
+}
+
+
+h1:hover {
+  font-size: 28px; 
+}
