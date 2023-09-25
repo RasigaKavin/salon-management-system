@@ -1,0 +1,55 @@
+/* Container styling */
+div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header styling (assuming HeaderComponent generates a header) */
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Main content container */
+  .main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* List styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* List item styling */
+  li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Strong element within list item */
+  li strong {
+    font-weight: bold;
+  }
+  
+  /* Horizontal rule within list item */
+  li hr {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  
